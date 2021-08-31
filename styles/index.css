@@ -9,27 +9,27 @@ html,body {
 
 @font-face {
     font-family: "Nunito-SemiBold";
-    src: url("/fonts/Nunito-SemiBold.ttf");
+    src: url("./fonts/Nunito-SemiBold.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Regular";
-    src: url("/fonts/Nunito-Regular.ttf");
+    src: url("./fonts/Nunito-Regular.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Light";
-    src: url("/fonts/Nunito-Light.ttf");
+    src: url("./fonts/Nunito-Light.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Black";
-    src: url("/fonts/Nunito-Black.ttf");
+    src: url("./fonts/Nunito-Black.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Bold";
-    src: url("/fonts/Nunito-Bold.ttf");
+    src: url("./fonts/Nunito-Bold.ttf");
 }
 
 
