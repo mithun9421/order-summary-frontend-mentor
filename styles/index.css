@@ -7,31 +7,7 @@ html,body {
     height: 100%;
 }
 
-@font-face {
-    font-family: "Nunito-SemiBold";
-    src: url("/fonts/Nunito-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: "Nunito-Regular";
-    src: url("/fonts/Nunito-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Nunito-Light";
-    src: url("/fonts/Nunito-Light.ttf");
-}
-
-@font-face {
-    font-family: "Nunito-Black";
-    src: url("/fonts/Nunito-Black.ttf");
-}
-
-@font-face {
-    font-family: "Nunito-Bold";
-    src: url("/fonts/Nunito-Bold.ttf");
-}
-
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700;1,800;1,900&display=swap);
 
 .wrapper {
     height: 100%;
@@ -71,13 +47,15 @@ html,body {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 24px;
-    font-family: "Nunito-Bold";
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
 }
 
 .form-content {
     width: 65%;
     margin-top: 15px;
-    font-family: "Nunito-Regular";
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
     text-align: center;
     color: #8B8E9D;
 }
@@ -103,7 +81,8 @@ html,body {
 }
 
 .right {
-    font-family: "Nunito-Bold";
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 .plan-selection-info {
@@ -111,13 +90,15 @@ html,body {
 }
 
 .plan-selection-title {
-    font-family: "Nunito-Bold";
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
 }
 
 .plan-selection-price {
     flex: 1;
     color: #8B8E9D;
-    font-family: "Nunito-Regular";
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 .button-group {
@@ -131,7 +112,8 @@ html,body {
     font-size: 16px;
     margin-top: 30px;
     height: 50px;
-    font-family: "Nunito-Bold";
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
     width: 65%;
     border: 1px solid transparent;
     border-radius: 10px;
