@@ -9,27 +9,27 @@ html,body {
 
 @font-face {
     font-family: "Nunito-SemiBold";
-    src: url("./fonts/Nunito-SemiBold.ttf");
+    src: url("/fonts/Nunito-SemiBold.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Regular";
-    src: url("./fonts/Nunito-Regular.ttf");
+    src: url("/fonts/Nunito-Regular.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Light";
-    src: url("./fonts/Nunito-Light.ttf");
+    src: url("/fonts/Nunito-Light.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Black";
-    src: url("./fonts/Nunito-Black.ttf");
+    src: url("/fonts/Nunito-Black.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Bold";
-    src: url("./fonts/Nunito-Bold.ttf");
+    src: url("/fonts/Nunito-Bold.ttf");
 }
 
 
@@ -46,8 +46,8 @@ html,body {
 
 .form-container {
     background-color: #ffffff;
-    width: 30%;
-    height: 80%;
+    width: 490px;
+    height: 75%;
     border-radius: 10px;
     overflow: hidden;
     -moz-box-shadow: 5px 5px 5px rgba(85, 68, 241, 0.1);
@@ -75,7 +75,7 @@ html,body {
 }
 
 .form-content {
-    width: 55%;
+    width: 65%;
     margin-top: 15px;
     font-family: "Nunito-Regular";
     text-align: center;
@@ -86,7 +86,7 @@ html,body {
     display: flex;
     flex-direction: row;
     margin-top: 25px;
-    width: 55%;
+    width: 65%;
     padding: 20px;
     background-color: #F8F9FE;
     border-radius: 10px;
@@ -100,6 +100,10 @@ html,body {
 .left {
     display: flex;
     flex-direction: row;
+}
+
+.right {
+    font-family: "Nunito-Bold";
 }
 
 .plan-selection-info {
@@ -128,7 +132,7 @@ html,body {
     margin-top: 30px;
     height: 50px;
     font-family: "Nunito-Bold";
-    width: 60%;
+    width: 65%;
     border: 1px solid transparent;
     border-radius: 10px;
   
